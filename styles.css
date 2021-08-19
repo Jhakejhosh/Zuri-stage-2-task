@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppin', sans-serif;
+}
+:root {
+    --active-color: rgb(4, 4, 48);
+    --side-color: rgb(204, 204, 204);
+    --inner-bar: rgb(150, 149, 149);
+}
+header {
+    background-color: var(--active-color);
+    color: white;
+    position: relative;
+    width: 100%;
+    padding: 30px 30px 30px 50%;
+}
+header h1 {
+    font-size: 70px;
+    font-weight: lighter;
+}
+.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.left-content {
+    background-color: var(--side-color);
+    padding: 15% 50px 50px 50px;
+    width: 40%;
+}
+.contact, .skills {
+    border-bottom: 2px solid var(--inner-bar);
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    font-weight: bold;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--inner-bar);
+    top: -12%;
+    left: 50px;
+}
+.skills-section {
+    margin-top: 30px;
+}
+.skills-content {
+    padding: 10px 0;
+    font-weight: bold;
+}
+input[type="range"] {
+    width: 100%;
+    height: 7px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    background-color: var(--inner-bar);
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--active-color);
+}
+.right-content {
+    padding: 60px;
+    width: 100%;
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.about-section i,.experience-section i, .education-section i {
+    color: var(--inner-bar);
+    margin-right: 20px;
+    font-size: 25px;
+}
+.about, .experience, .education {
+    font-size: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--inner-bar);
+}
+.about-txt p {
+    line-height: 20px;
+}
+.experience-txt, .education-txt {
+    flex: 2;
+}
+.education-section, .experience-section {
+    display: flex;
+    margin-bottom: 30px;
+}
+.work p, .work small {
+    font-weight: bold;
+}
+.sub-txt{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: var(--active-color);
+}
+.zuri {
+    text-align: center;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.zuri a {
+    margin: 10px;
+}
+.logo {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.logo b {
+    color: red;
+}
+
+
